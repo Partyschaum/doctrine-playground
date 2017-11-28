@@ -1,0 +1,22 @@
+{
+    "name": "partyschaum/doctrine-playground",
+    "description": "My Personal Doctrine Playground",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Partyschaum\\DoctrinePlayground\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1.11",
+        "doctrine/orm": "^2.5",
+        "nategood/commando": "^0.2.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hauke Stange",
+            "email": "partyschaum@posteo.de"
+        }
+    ]
+}
